@@ -41,9 +41,25 @@ In 2017 there was a very short lived bear market of just 35 days that definitely
 ![eth_percent_drawdown](Images/eth_percent_drawdown.png)
 >
 The drawdowns from top to bottom in ETH are very similar to BTC, to no surpise. These drawdowns spanned between 55-88% with an average drawdown of 77.39%.
+>
+Finally, lets take a look at the drawdowns that occured from traditional markets. 
+>
+![traditional_days](images/sp500_daysinbear.png)
+>
+It seems that the typical bear market from the data we gathered ranges somewhere between 200-400 days. Covid was an obvious outlier that didn't last long due to the federal reserve pumping the economy and setting interest rates near 0. The average days in bear market was 347. 
+>
+![traditional_drawdown](Images/sp500_pct_drawdown.png)
+>
+The percent drawdown of these markets ranged anywhere between 25%-55% depending on the severity. 2008 was the largest drawdown which makes sense due to how severe it was across the globe. The average drawdown was 39.3%.
 
 ---
 ## How volatile are traditional and crypto markets during these bear markets?
+>
+To get an idea of how volatile each of these drawdowns were relative to one another, we used the seperated dataframes that were filtered to each bear market in both traditional markets and crypto markets. We then took those dataframes and calculated the percent change, and then the standard deviation of the returns. Below was the result:
+>
+![volatility](images/total_volatility.png)
+>
+It can be seen, that outside of the extreme rare case of the 2020 covid crash, that all of the crypto markets obviously have much larger volatility. Aside from that, ETH is more volatile than BTC, which would make sense considering BTC is likely where investors flee to in crashes due to it being the longest standing and most widely known cryptocurrency. 
 
 ---
 ## How does inflation effect stock/bond correlation?
@@ -103,6 +119,15 @@ We decided to use plotly as our new python library not covered in class. We want
 >
 These can also help show how quickly these selloffs occured, and just how much value was lost in the market. The covid candle is esepcially interesting because of how few candles there are --> Indicative of just how quickly the market lost that value.
 
+---
+## Conclusion:
+To conclude, it appears that the bear markets in both traditional and crypto markets last generally around the same amount of time. The drawdowns in crypto markets are much more viscious and the volatility included in them is also much higher.
+>
+Furthermore, stock/bond correlations do seem to increase in times of inflationary pressures due to continued selling of bonds from those expecting future yields to increase. This makes it much more difficult to diversify into the classic 60/40 portfolio that many hold, because there is no safehaven from these drawdowns.
+> 
+We also found that yield curve inversions are very effective tools to allow you to get a sense of when a recession may be coming and that in this current inflationary climate, it is likely that inflation will not abate until the federal funds rate is higher than core cpi. Currently, fed funds is 3.7% to 4% and core cpi is around 6.4%. 
+>
+The current bear market were in at the time of writing this has been shorter in duration than most seen from history, and has also had a lower drawdown from those we've studied. Although impossible to make conclusions based off of historical data like this, with the expectation of yields continuing to rise, we believe that although we may be through the brunt of the market downturn, there is good reason to believe that the selling may continue to go further, and that the bottom is not yet in.
 
 
 
