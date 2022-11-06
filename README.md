@@ -44,7 +44,7 @@ The drawdowns from top to bottom in ETH are very similar to BTC, to no surpise. 
 >
 Finally, lets take a look at the drawdowns that occured from traditional markets. 
 >
-![traditional_days](images/sp500_daysinbear.png)
+![traditional_days](Images/sp500_daysinbear.png)
 >
 It seems that the typical bear market from the data we gathered ranges somewhere between 200-400 days. Covid was an obvious outlier that didn't last long due to the federal reserve pumping the economy and setting interest rates near 0. The average days in bear market was 347. 
 >
