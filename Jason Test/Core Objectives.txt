@@ -1,0 +1,13 @@
+I. Core Analysis Objectives
+
+1. Plot out SP500 and Crypto data sets to find "bare markets" and establish corresponding duration
+	a.  Needed to measure prominent cause/effect on particular economic macros
+	b.  Compare:
+		- Percent Change between every High and Low at daily close (spanning 40+ years) to assess global standard deviation and volatility
+		- Honing in on particular factors correlated to the Stock & Bond market thereof
+
+2. Various Yield Comparison between markets and correlation to aforementioned aspects
+
+returns from .pct_change()
+max & min value at market close
+standard deviation from .std()
